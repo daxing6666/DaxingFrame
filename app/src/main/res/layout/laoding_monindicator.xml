@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:monindicator="http://schemas.android.com/apk/res/com.daxingframe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ffffff">
+    <com.daxingframe.frame.ui.view.loading.monindicator.MonIndicator
+        android:id="@+id/monIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        monindicator:circleRadius="20dp"
+        monindicator:cycle="1500"/>
+</RelativeLayout>

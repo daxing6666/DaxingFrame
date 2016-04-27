@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <!-- &lt;!&ndash;loading 球对撞&ndash;&gt;
+    <declare-styleable name="swingindicator">
+        <attr name="circleRadius" format="dimension" />
+        <attr name="swingRadius" format="dimension" />
+        <attr name="circleColor" format="reference|color" />
+        <attr name="cycle" format="integer" />
+    </declare-styleable>
+
+    &lt;!&ndash;loading 一条线球的变化&ndash;&gt;
+    <declare-styleable name="monindicator">
+        <attr name="circleRadius" format="dimension" />
+        <attr name="circleSpacing" format="dimension" />
+        <attr name="cycle" format="integer" />
+    </declare-styleable>-->
+
+    <!--合起来 swingindicator  monindicator-->
+    <declare-styleable name="loadingview">
+        <attr name="circleRadius" format="dimension" />
+        <attr name="swingRadius" format="dimension" />
+        <attr name="circleSpacing" format="dimension" />
+        <attr name="circleColor" format="reference|color" />
+        <attr name="cycle" format="integer" />
+    </declare-styleable>
+
+    <!--自定义view的方式实现的Material风格的加载提示控件-->
+    <declare-styleable name="CircularProgressView">
+        <attr name="cpv_progress" format="float" />
+        <attr name="cpv_maxProgress" format="float" />
+        <attr name="cpv_animDuration" format="integer" />
+        <attr name="cpv_animSwoopDuration" format="integer" />
+        <attr name="cpv_animSyncDuration" format="integer" />
+        <attr name="cpv_color" format="color"/>
+        <attr name="cpv_thickness" format="dimension"/>
+        <attr name="cpv_indeterminate" format="boolean" />
+        <attr name="cpv_animAutostart" format="boolean" />
+        <attr name="cpv_animSteps" format="integer" />
+        <attr name="cpv_startAngle" format="float" />
+    </declare-styleable>
+
+    <!--
+    com.daxingframe.frame.ui.view.loading.progresslayout.ProgressLayout
+    -->
+    <declare-styleable name="ProgressLayout">
+        <attr name="progressBackground" format="color"/>
+        <attr name="progress" format="boolean"/>
+    </declare-styleable>
+
+</resources>

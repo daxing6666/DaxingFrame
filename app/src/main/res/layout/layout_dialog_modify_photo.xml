@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    android:id="@+id/linear_title_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_ad_bottom_shadow"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#FF333333"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="选择来源"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:id="@+id/linear_camera_container"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/list_linear_white_item_selector"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:src="@mipmap/ic_from_camera"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="拍照..."/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFBFBFBF"/>
+
+    <LinearLayout
+        android:id="@+id/linear_gallery_container"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/list_linear_white_item_selector"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:src="@mipmap/ic_from_gallery"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="从图库选择..."/>
+    </LinearLayout>
+</LinearLayout>

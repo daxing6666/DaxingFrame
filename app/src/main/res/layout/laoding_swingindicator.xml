@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swingindicator="http://schemas.android.com/apk/res/com.daxingframe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ffffff">
+    <com.daxingframe.frame.ui.view.loading.swingindicator.SwingIndicator
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        swingindicator:circleRadius="10dp"
+        swingindicator:swingRadius="50dp"
+        swingindicator:cycle="400"/>
+</RelativeLayout>
